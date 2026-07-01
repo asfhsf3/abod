@@ -143,7 +143,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  const startMessage = "Click here to see the motion baby";
+  const startMessage = "Click here to see";
   let startIdx = 0, startVisible = true;
   function typeStart() {
     if (startIdx < startMessage.length) startIdx++;
